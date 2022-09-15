@@ -128,7 +128,7 @@ a {
     letter-spacing: 0.13538em;
 }
 
-@media (min-width: 1920px) {
+@media screen and (min-width: 1920px) {
     .bottom-left {
         display: grid;
         grid-template-columns: 85px 95px 85px;
