@@ -1,13 +1,59 @@
 body {
-    background: url(./img/background.jpg) no-repeat 0 0;
-    background-size: 100%;
+    background: linear-gradient(to top left, #FFFFE0, #D8BFD8) fixed;
 }
 
-.main {
+.main img {
     position: relative;
-    text-align: center;
-    margin-top: 4%;
+    margin-top: 1%;
+    margin-left: 28%;
+    border-radius: 10px;
+}
 
+.main_info {
+    position: absolute;
+    font-family: Comic Sans MS, Comic Sans;
+    top: 13%;
+    right: 25%;
+    color: #3c346e;
+}
+
+.info h4 {
+    font-size: 16px;
+    color:#3c346e;
+}
+
+.info {
+    position: absolute;
+    top: 47%;
+    right: 19%;
+    text-align: left;
+    font-family: Comic Sans MS, Comic Sans;
+    font-size: 16px;
+    color: #3c346e;
+}
+
+.separator {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 26%;
+}
+
+.about_me {
+    position: absolute;
+    top: 55%;
+    left: 21%;
+    text-align: right;
+    font-family: Comic Sans MS, Comic Sans;
+    font-size: 16px;
+    color: #3c346e;
+}
+
+.links {
+    margin-top: 11%;
+    margin-left: 41.5%;
+    word-spacing: 10px;
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans;
 }
 
 a {
@@ -15,81 +61,60 @@ a {
     color: rgb(0, 0, 0);
 }
 
-.bottom-left {
-    display: grid;
-    grid-template-columns: 85px 95px 85px;
-    position: absolute;
-    top: 20px;
-    margin-left: 60%;
-    font-family: Impact;
-    font-size: 24px;
-    text-shadow: rgb(83, 83, 83) 0px 5px 12px;
-    
-}
-
-.info {
-    position: absolute;
-    top: 23%;
-    margin-left: 23%;
-    text-align: left;
+.mail {
+    margin-top: 1%;
+    margin-left: 39%;
     font-family: Comic Sans MS, Comic Sans;
-    font-size: 26px;
-    font-weight: bold;
 }
 
-.info_about_buttons {
-    position: absolute;
-    top: 47%;
-    margin-left: 24%;
-    text-align: left;
-    font-family: Bradley Hand;
-    font-size: 16px;
-    color:rgb(48, 47, 47);
-}
-
-.photo{
-    position: absolute;
-    top: 25%;
-    margin-left: 60%;
+.phone {
+    margin-top: 1%;
+    margin-left: 43%;
+    font-family: Comic Sans MS, Comic Sans;
 }
 
 @media screen and (min-width: 1920px) {
-    .main {
-        position: relative;
-        text-align: center;
-        margin-top: 15%;
+    .main img {
+        margin-top: 3%;
+        margin-left: 35%;
     }
 
-    .bottom-left {
-        display: grid;
-        grid-template-columns: 85px 95px 85px;
-        position: absolute;
-        top: 20px;
-        margin-left: 55%;
-        font-family: Impact;
-        font-size: 24px;
-        text-shadow: rgb(83, 83, 83) 0px 5px 12px;
-        
+    .main_info {
+        top: 13%;
+        right: 30%;
+    }
+
+    .info h4 {
+        margin-top: -35%;
     }
 
     .info {
-        position: absolute;
-        top: 23%;
-        margin-left: 30%;
-        text-align: left;
-        font-family: Comic Sans MS, Comic Sans;
-        font-size: 26px;
-        font-weight: bold;
-    }
-
-    .info_about_buttons {
-        position: absolute;
         top: 47%;
-        margin-left: 32%;
-        text-align: left;
-        font-family: Bradley Hand;
-        font-size: 16px;
-        color:rgb(48, 47, 47);
+        right: 26%;
     }
 
+    .separator {
+        margin-top: 1%;
+        margin-left: 22%;
+    }
+
+    .about_me {
+        top: 35.5%;
+        left: 30%;
+    }
+
+    .links {
+        margin-top: 11%;
+        margin-left: 46%;
+    }
+    
+    .mail {
+        margin-top: 1%;
+        margin-left: 44%;
+    }
+    
+    .phone {
+        margin-top: 1%;
+        margin-left: 47%;
+    }
 }
