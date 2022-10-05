@@ -50,7 +50,7 @@ body {
 
 .links {
     margin-top: 11%;
-    margin-left: 41.5%;
+    margin-left: 40%;
     word-spacing: 10px;
     font-size: 18px;
     font-family: Comic Sans MS, Comic Sans;
@@ -69,8 +69,54 @@ a {
 
 .phone {
     margin-top: 1%;
-    margin-left: 43%;
+    margin-left: 42%;
     font-family: Comic Sans MS, Comic Sans;
+}
+
+@media screen and (min-width: 1920px) {
+    .main img {
+        margin-top: 3%;
+        margin-left: 35%;
+    }
+
+    .main_info {
+        top: 13%;
+        right: 15%;
+    }
+
+    .info h4 {
+        margin-top: -35%;
+    }
+
+    .info {
+        top: 47%;
+        right: 26%;
+    }
+
+    .separator {
+        margin-top: 1%;
+        margin-left: 22%;
+    }
+
+    .about_me {
+        top: 35.5%;
+        left: 30%;
+    }
+
+    .links {
+        margin-top: 11%;
+        margin-left: 46%;
+    }
+    
+    .mail {
+        margin-top: 1%;
+        margin-left: 44%;
+    }
+    
+    .phone {
+        margin-top: 1%;
+        margin-left: 47%;
+    }
 }
 
 @media screen and (min-width: 1920px) {
@@ -105,7 +151,7 @@ a {
 
     .links {
         margin-top: 11%;
-        margin-left: 46%;
+        margin-left: 45%;
     }
     
     .mail {
@@ -115,53 +161,7 @@ a {
     
     .phone {
         margin-top: 1%;
-        margin-left: 47%;
-    }
-}
-
-@media screen and (min-width: 1920px) {
-    .main img {
-        margin-top: 3%;
-        margin-left: 35%;
-    }
-
-    .main_info {
-        top: 13%;
-        right: 36%;
-    }
-
-    .info h4 {
-        margin-top: -35%;
-    }
-
-    .info {
-        top: 47%;
-        right: 26%;
-    }
-
-    .separator {
-        margin-top: 1%;
-        margin-left: 22%;
-    }
-
-    .about_me {
-        top: 35.5%;
-        left: 30%;
-    }
-
-    .links {
-        margin-top: 11%;
         margin-left: 46%;
-    }
-    
-    .mail {
-        margin-top: 1%;
-        margin-left: 44%;
-    }
-    
-    .phone {
-        margin-top: 1%;
-        margin-left: 47%;
     }
 }
 
