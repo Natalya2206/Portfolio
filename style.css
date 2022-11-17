@@ -1,59 +1,79 @@
 body {
     background: linear-gradient(to top left, #FFFFE0, #D8BFD8) fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-.main img {
+.main__img {
     position: relative;
-    margin-top: 1%;
-    margin-left: 28%;
+    margin-top: 2%;
+    margin-left: 30%;
+    width: calc(220 / 1366 * 100vw);
+    height: calc(290 / 1366 * 100vw);
+}
+
+img {
     border-radius: 10px;
+    float: right;
 }
 
 .main_info {
     position: absolute;
     font-family: Comic Sans MS, Comic Sans;
     top: 13%;
-    right: 25%;
+    right: 17%;
     color: #3c346e;
+    width: calc(400 / 1366 * 100vw);
+    height: calc(200 / 768 * 100vw);
 }
 
 .info h4 {
     font-size: 16px;
     color:#3c346e;
+    width: calc(50 / 1366 * 100vw);
+    height: calc(18 / 768 * 100vw);
 }
 
 .info {
     position: absolute;
-    top: 47%;
-    right: 19%;
+    top: 50%;
+    right: 2%;
     text-align: left;
     font-family: Comic Sans MS, Comic Sans;
     font-size: 16px;
     color: #3c346e;
+    width: calc(600 / 1366 * 100vw);
+    height: calc(128 / 768 * 100vw);
 }
 
 .separator {
-    position: relative;
-    margin-top: 5%;
-    margin-left: 26%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: calc(1 / 1366 * 100vw);
+    height: calc(128 / 768 * 100vw);
 }
 
 .about_me {
     position: absolute;
-    top: 55%;
-    left: 21%;
+    top: 59%;
+    left: 18%;
     text-align: right;
     font-family: Comic Sans MS, Comic Sans;
     font-size: 16px;
     color: #3c346e;
+    width: calc(390 / 1366 * 100vw);
+    height: calc(128 / 768 * 100vw);
 }
 
-.links {
-    margin-top: 11%;
-    margin-left: 40%;
-    word-spacing: 10px;
-    font-size: 18px;
-    font-family: Comic Sans MS, Comic Sans;
+.footer {
+    position: absolute;
+    bottom: 0;
+    top: 120%;
+    left: 42%;
+    width: calc(400 / 1366 * 100vw);
+    height: calc(50 / 768 * 100vw);
 }
 
 a {
@@ -61,16 +81,20 @@ a {
     color: rgb(0, 0, 0);
 }
 
+.links {
+    word-spacing: 10px;
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans;
+    margin-left: 5%;
+}
+
 .mail {
-    margin-top: 1%;
-    margin-left: 39%;
     font-family: Comic Sans MS, Comic Sans;
 }
 
 .phone {
-    margin-top: 1%;
-    margin-left: 42%;
     font-family: Comic Sans MS, Comic Sans;
+    margin-left: 12%;
 }
 
 @media screen and (min-width: 1920px) {
