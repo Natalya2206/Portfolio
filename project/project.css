@@ -46,15 +46,6 @@ a {
   color:rgb(0, 0, 0);
 }
 
-.link_slider_man {
-  position: absolute;
-  font-size: calc(18 / 1440 * 100vw);
-  font-family: Comic Sans MS, Comic Sans;
-  left: 48%;
-  top: 10%;
-  transform: translate(-50%, -50%);
-}
-
 .link_slider_cafe {
   position: absolute;
   font-size: calc(18 / 1440 * 100vw);
